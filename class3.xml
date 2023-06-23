@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note>
+  <to>Tove</to>
+  <from>Jani</from>
+  <heading>Reminder</heading>
+  <body><bookstore>
+  <book category="Children">
+    <title>Harry Potter</title>
+    <author>J K. Rowling</author>
+    <year>2005</year>
+    <price>5000/-</price>
+  </book>
+  <book category="Website Development">
+    <title>Learning XML</title>
+    <author>Erik T. Ray</author>
+    <year>2003</year>
+    <price>800/-</price>
+  </book>
+   <book category="Website Development">
+    <title>Learning HTML</title>
+    <author></author>
+    <year>2003</year>
+    <price>3500/-</price>
+  </book>
+   <book category="Life Moral">
+    <title>‘Birsa Munda – Janjatiya Nayak’</title>
+    <author>Prof. Alok Chakrawal</author>
+    <year>1998</year>
+    <price>1000/-</price>
+  </book>
+   <book category="Life Moral">
+    <title>'Hear Yourself’</title>
+    <author>Indian Author Prem Rawat</author>
+    <year>2000</year>
+    <price>2490/-</price>
+  </book>
+</bookstore></body>
+</note>

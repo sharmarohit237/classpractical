@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM DEMO</title>
+</head>
+<body bgcolor="orange">
+    <form style="text-align: center;  font-size: 250%; border: 5px solid rgb(148, 48, 48)">
+        <label for="name">First Name:</label>
+        <input type="text" name="first-name"><br><br>
+        <label for="name">Last Name:</label>
+        <input type="text" name="last-name"><br><br>
+        <label for="sex">Sex:</label>
+        <input type="radio" name="sex" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="sex" id="female" value="female">
+        <label for="female">Female</label> <br><br>
+        <label for="country">Country: </label>
+        <select name="country" id="country">
+            <option>Select an option</option>
+            <option value="nepal">Nepal</option>
+            <option value="usa">USA</option>
+            <option value="australia">Australia</option>
+            <option value="india">India</option>
+            <option value="russia">Russia</option>
+            <option value="pakistan">Pakistan</option>
+        </select><br><br>
+        <label for="message">Message:</label><br>
+        <textarea name="message" id="message" cols="70" rows="4"></textarea><br><br>
+        <input type="checkbox" name="newsletter" id="newsletter">
+        <label for="newsletter">Subscribe?</label><br><br>
+        <input type="submit" value="Submit" style="height: 100%;">
+    </form>
+    
+</body>
+</html>
